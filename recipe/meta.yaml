@@ -15,8 +15,8 @@ source:
   sha256: 8177a3f5107883ae248b2cd0afa388a1794741f5155a9455b3883788cf44d5d0
 
 build:
-  number: 1
-  skip: true  # [win32]
+  noarch: generic
+  number: 1001
   rpaths:
     - lib/R/lib/
     - lib/
@@ -61,8 +61,7 @@ about:
     for simplifying some clustering analysis steps and provides 'ggplot2' - based elegant
     data visualization.
   license_family: GPL2
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-2'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
 
 extra:
   recipe-maintainers:
