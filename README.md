@@ -3,7 +3,7 @@ About r-factoextra
 
 Home: https://CRAN.R-project.org/package=factoextra
 
-Package license: GPL-2
+Package license: GPL-2.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-factoextra-feedstock/blob/master/LICENSE.txt)
 
