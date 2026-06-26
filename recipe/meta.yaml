@@ -1,4 +1,4 @@
-{% set version = "2.0.0" %}
+{% set version = "2.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/factoextra_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/factoextra/factoextra_{{ version }}.tar.gz
-  sha256: 9ba29cd5f57c0c167c2b6b2bbdedb09e179199bd5db761fd600529ab6a924908
+  sha256: b40af85b8dfa8c86c51331449527ac33492c0d1386f5385d28eaef230fda45be
 
 build:
   number: 0
